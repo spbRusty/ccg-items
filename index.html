@@ -8,18 +8,19 @@
 <title>ККИ — библиотека разработчика</title>
 <link rel="stylesheet" href="style.css">
 <style>
-.hero{padding:clamp(28px,7vw,68px) 0 34px}.hero h1{max-width:720px}.hero .lead{max-width:660px}.topics{display:flex;flex-direction:column;gap:0;margin:24px 0;border-top:1px solid var(--line)}.topic{display:grid;grid-template-columns:minmax(190px,.75fr) minmax(0,1.6fr);align-items:start;gap:24px;background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 4px}.topic h2{margin:0 0 5px}.topic p{margin:0;font-size:.92rem;color:var(--muted)}.topic details{border:0;padding:0}.topic summary{cursor:pointer;color:var(--accent);font-weight:650;padding:2px 0 8px}.topic details a{display:inline-block;margin:0 16px 7px 0;padding:0;border:0;font-size:.94rem}.extras{display:flex;flex-direction:column;gap:0;margin-top:28px;border-top:1px solid var(--line)}.extra{display:block;flex:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:15px 4px;background:transparent}.extra p{margin:5px 0 0;color:var(--muted);font-size:.9rem}@media(max-width:600px){.topic{grid-template-columns:1fr;gap:10px}.topic details a{display:block;margin:0;padding:8px 0;border-bottom:1px solid #263541}.hero{padding-top:26px}}
+.hero{padding:12px 0 14px}.hero h1{max-width:720px}.hero .lead{max-width:660px}.actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 20px}.action-link{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border:1px solid var(--line);border-radius:8px;font-weight:650}.action-primary{background:var(--accent);color:#0d141b;border-color:var(--accent)}.topics{display:flex;flex-direction:column;gap:0;margin:24px 0;border-top:1px solid var(--line)}.topic{display:grid;grid-template-columns:minmax(190px,.75fr) minmax(0,1.6fr);align-items:start;gap:24px;background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 4px}.topic h2{margin:0 0 5px}.topic p{margin:0;font-size:.92rem;color:var(--muted)}.topic details{border:0;padding:0}.topic summary{cursor:pointer;color:var(--accent);font-weight:650;padding:2px 0 8px}.topic details a{display:inline-block;margin:0 16px 7px 0;padding:0;border:0;font-size:.94rem}.extras{display:flex;flex-direction:column;gap:0;margin-top:28px;border-top:1px solid var(--line)}.extra{display:block;flex:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:15px 4px;background:transparent}.extra p{margin:5px 0 0;color:var(--muted);font-size:.9rem}@media(max-width:600px){.topic{grid-template-columns:1fr;gap:10px}.topic details a{display:block;margin:0;padding:8px 0;border-bottom:1px solid #263541}.hero{padding-top:12px}}
 </style>
 </head>
 <body>
 <main class="wrap">
 <header class="top"><a class="brand" href="index.html">ККИ · БИБЛИОТЕКА</a><span class="crumb">Материалы для разработчиков игр</span></header>
 <section class="hero">
-<span class="tag">17 статей · 5 разделов</span>
-<h1>От первой механики до готовой игры</h1>
-<p class="lead">Практические материалы о создании карточных и настольных игр. Выберите тему — список статей откроется внутри раздела.</p>
+<span class="tag">Библиотека игрового дизайна</span>
+<h1>Создание карточных игр</h1>
+<p class="lead">Конспекты и практические материалы о разработке, балансе, дизайне и публикации игр.</p>
+<div class="actions"><a class="action-link" href="idle-games-math.html">Математика idle-игр · Kongregate</a><a class="action-link action-primary" href="#articles">Список статей ShuffleKit ↓</a></div>
 </section>
-<section aria-label="Разделы библиотеки">
+<section id="articles" aria-label="Разделы библиотеки">
 <div class="topics">
 <article class="topic">
 <h2>Разработка ККИ</h2>
@@ -70,10 +71,7 @@
 </article>
 </div>
 </section>
-<section class="extras" aria-label="Другие материалы">
-<a class="extra" href="idle-games-math.html"><strong>Математика idle-игр →</strong><p>Отдельный материал о кривых роста, стоимости улучшений и престиже.</p></a>
-<a class="extra" href="https://shufflekit.com/blog" target="_blank" rel="noopener noreferrer"><strong>Оригинальный блог ShuffleKit ↗</strong><p>Исходные публикации на английском языке.</p></a>
-</section>
+
 <footer class="footer">Русскоязычные конспекты с практическими выводами. Ссылки на оригинальные публикации размещены внутри статей.</footer>
 </main>
 </body>
