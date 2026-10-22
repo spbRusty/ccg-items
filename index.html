@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="style.css">
 <style>
 /* Единый стиль стартовой страницы */
-body, .wrap, .top, .hero, .footer, .brand, .crumb, .tag, h1, p {
+body, .wrap, .top, .hero, .footer, .brand, .crumb, .tag, h1, h2, h3, p, li, strong, span {
   font-family: system-ui,-apple-system,Segoe UI,sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -19,6 +19,8 @@ body, .wrap, .top, .hero, .footer, .brand, .crumb, .tag, h1, p {
   text-transform: none;
   color: var(--text);
 }
+.hero .lead { font-size:16px; color:var(--text); }
+.hero h1 { font-size:16px; line-height:1.6; letter-spacing:normal; }
 .top { display:flex; gap:16px; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:8px; margin-bottom:12px; }
 .brand { color:var(--accent); text-decoration:none; }
 a, a:visited, .action-link { color:var(--accent); }
@@ -46,9 +48,6 @@ a:hover { color:#b4f4e3; text-decoration:underline; }
 <main class="wrap">
 <header class="top"><a class="brand" href="index.html">ККИ · БИБЛИОТЕКА</a><span class="crumb">Материалы для разработчиков игр</span></header>
 <section class="hero">
-<span class="tag">Библиотека игрового дизайна</span>
-<h1>Создание карточных игр</h1>
-<p class="lead">Конспекты и практические материалы о разработке, балансе, дизайне и публикации игр.</p>
 <div class="actions"><a class="action-link" href="idle-games-math.html">Математика idle-игр · Kongregate</a><a class="action-link" href="shufflekit-articles.html">Список статей ShuffleKit</a><a class="action-link" href="gamedesign-gg.html">Геймдизайн и математика ККИ · GameDesign.gg</a></div>
 </section>
 <footer class="footer">Русскоязычные конспекты с практическими выводами. Ссылки на оригинальные публикации размещены внутри статей.</footer>
