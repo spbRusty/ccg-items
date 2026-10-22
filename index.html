@@ -8,7 +8,7 @@
 <title>ККИ — библиотека разработчика</title>
 <link rel="stylesheet" href="style.css">
 <style>
-.hero{padding:12px 0 14px}.hero h1{max-width:720px}.hero .lead{max-width:660px}.actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 20px}.action-link{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border:1px solid var(--line);border-radius:8px;font-weight:650}.action-primary{background:var(--accent);color:#0d141b;border-color:var(--accent)}.topics{display:flex;flex-direction:column;gap:0;margin:24px 0;border-top:1px solid var(--line)}.topic{display:grid;grid-template-columns:minmax(190px,.75fr) minmax(0,1.6fr);align-items:start;gap:24px;background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 4px}.topic h2{margin:0 0 5px}.topic p{margin:0;font-size:.92rem;color:var(--muted)}.topic details{border:0;padding:0}.topic summary{cursor:pointer;color:var(--accent);font-weight:650;padding:2px 0 8px}.topic details a{display:inline-block;margin:0 16px 7px 0;padding:0;border:0;font-size:.94rem}.extras{display:flex;flex-direction:column;gap:0;margin-top:28px;border-top:1px solid var(--line)}.extra{display:block;flex:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:15px 4px;background:transparent}.extra p{margin:5px 0 0;color:var(--muted);font-size:.9rem}@media(max-width:600px){.topic{grid-template-columns:1fr;gap:10px}.topic details a{display:block;margin:0;padding:8px 0;border-bottom:1px solid #263541}.hero{padding-top:12px}}
+.hero{padding:12px 0 14px}.hero h1{max-width:720px}.hero .lead{max-width:660px}.actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 20px}.action-link{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border:1px solid var(--line);border-radius:8px;font-weight:650}.topics{display:flex;flex-direction:column;gap:0;margin:24px 0;border-top:1px solid var(--line)}.topic{display:grid;grid-template-columns:minmax(190px,.75fr) minmax(0,1.6fr);align-items:start;gap:24px;background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 4px}.topic h2{margin:0 0 5px}.topic p{margin:0;font-size:.92rem;color:var(--muted)}.topic details{border:0;padding:0}.topic summary{cursor:pointer;color:var(--accent);font-weight:650;padding:2px 0 8px}.topic details a{display:inline-block;margin:0 16px 7px 0;padding:0;border:0;font-size:.94rem}.extras{display:flex;flex-direction:column;gap:0;margin-top:28px;border-top:1px solid var(--line)}.extra{display:block;flex:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:15px 4px;background:transparent}.extra p{margin:5px 0 0;color:var(--muted);font-size:.9rem}@media(max-width:600px){.topic{grid-template-columns:1fr;gap:10px}.topic details a{display:block;margin:0;padding:8px 0;border-bottom:1px solid #263541}.hero{padding-top:12px}}
 </style>
 </head>
 <body>
@@ -18,60 +18,8 @@
 <span class="tag">Библиотека игрового дизайна</span>
 <h1>Создание карточных игр</h1>
 <p class="lead">Конспекты и практические материалы о разработке, балансе, дизайне и публикации игр.</p>
-<div class="actions"><a class="action-link" href="idle-games-math.html">Математика idle-игр · Kongregate</a><a class="action-link action-primary" href="#articles">Список статей ShuffleKit ↓</a></div>
+<div class="actions"><a class="action-link" href="idle-games-math.html">Математика idle-игр · Kongregate</a><a class="action-link" href="shufflekit-articles.html">Список статей ShuffleKit</a></div>
 </section>
-<section id="articles" aria-label="Разделы библиотеки">
-<div class="topics">
-<article class="topic">
-<h2>Разработка ККИ</h2>
-<p>Правила, ресурсы и путь от идеи к первому прототипу.</p>
-<details><summary>2 материала <span class="count">· показать список</span></summary>
-<a href="make-trading-card-game.html">Как создать ККИ</a>
-<a href="make-card-game-from-scratch.html">Карточная игра с нуля</a>
-</details>
-</article>
-<article class="topic">
-<h2>Баланс и плейтесты</h2>
-<p>Как выявлять сильные карты, проверять темп и собирать обратную связь.</p>
-<details><summary>2 материала <span class="count">· показать список</span></summary>
-<a href="balance-trading-card-game.html">Баланс ККИ: 5 проверок</a>
-<a href="card-game-playtesting-software.html">Программы для плейтестов</a>
-</details>
-</article>
-<article class="topic">
-<h2>Дизайн карт</h2>
-<p>Читаемость, размеры, шаблоны и подготовка файлов.</p>
-<details><summary>3 материала <span class="count">· показать список</span></summary>
-<a href="playing-card-sizes.html">Размеры игровых карт</a>
-<a href="game-card-graphic-design.html">Дизайн игровых карт: 6 принципов</a>
-<a href="card-template-tools.html">Инструменты шаблонов карт</a>
-</details>
-</article>
-<article class="topic">
-<h2>Инструменты</h2>
-<p>Конструкторы, ИИ, Tabletop Simulator и автоматизация рабочего процесса.</p>
-<details><summary>9 материалов <span class="count">· показать список</span></summary>
-<a href="tabletop-simulator-custom-cards.html">Карты для Tabletop Simulator</a>
-<a href="ai-tabletop-game-makers.html">ИИ-инструменты для настольных игр</a>
-<a href="tabletop-game-makers.html">Конструкторы настольных игр</a>
-<a href="ai-board-game-makers.html">ИИ для настольных игр</a>
-<a href="board-game-makers.html">Как выбрать конструктор настольной игры</a>
-<a href="tts-card-makers.html">Инструменты для карт под TTS</a>
-<a href="ai-card-game-makers.html">ИИ-конструкторы карточных игр</a>
-<a href="card-game-makers.html">Программы для создания карточных игр</a>
-<a href="print-on-demand-printers.html">Выбор сервиса печати</a>
-</details>
-</article>
-<article class="topic">
-<h2>Издание и публикация</h2>
-<p>Печать прототипа, производство и выбор способа выпуска.</p>
-<details><summary>1 материал <span class="count">· показать список</span></summary>
-<a href="publish-card-game.html">Как издать карточную игру</a>
-</details>
-</article>
-</div>
-</section>
-
 <footer class="footer">Русскоязычные конспекты с практическими выводами. Ссылки на оригинальные публикации размещены внутри статей.</footer>
 </main>
 </body>
