@@ -8,7 +8,38 @@
 <title>ККИ — библиотека разработчика</title>
 <link rel="stylesheet" href="style.css">
 <style>
-.hero{padding:12px 0 14px}.hero h1{max-width:720px}.hero .lead{max-width:660px}.actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 20px}.action-link{display:inline-flex;align-items:center;justify-content:center;padding:9px 14px;border:1px solid var(--line);border-radius:8px;font-weight:650}.topics{display:flex;flex-direction:column;gap:0;margin:24px 0;border-top:1px solid var(--line)}.topic{display:grid;grid-template-columns:minmax(190px,.75fr) minmax(0,1.6fr);align-items:start;gap:24px;background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 4px}.topic h2{margin:0 0 5px}.topic p{margin:0;font-size:.92rem;color:var(--muted)}.topic details{border:0;padding:0}.topic summary{cursor:pointer;color:var(--accent);font-weight:650;padding:2px 0 8px}.topic details a{display:inline-block;margin:0 16px 7px 0;padding:0;border:0;font-size:.94rem}.extras{display:flex;flex-direction:column;gap:0;margin-top:28px;border-top:1px solid var(--line)}.extra{display:block;flex:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:15px 4px;background:transparent}.extra p{margin:5px 0 0;color:var(--muted);font-size:.9rem}@media(max-width:600px){.topic{grid-template-columns:1fr;gap:10px}.topic details a{display:block;margin:0;padding:8px 0;border-bottom:1px solid #263541}.hero{padding-top:12px}}
+/* Единый стиль стартовой страницы */
+body, .wrap, .top, .hero, .footer, .brand, .crumb, .tag, h1, p {
+  font-family: system-ui,-apple-system,Segoe UI,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text);
+}
+.top { display:flex; gap:16px; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:8px; margin-bottom:12px; }
+.brand { color:var(--accent); text-decoration:none; }
+a, a:visited, .action-link { color:var(--accent); }
+a:hover { color:#b4f4e3; text-decoration:underline; }
+.hero { padding:12px 0 14px; }
+.hero h1 { margin:0 0 12px; }
+.hero p { margin:0 0 20px; max-width:78ch; }
+.tag { display:block; margin:0 0 12px; }
+.actions { display:flex; flex-direction:column; align-items:stretch; gap:10px; margin:0 0 20px; max-width:100%; }
+.action-link {
+  display:flex; align-items:center; justify-content:flex-start;
+  width:100%; min-height:48px; padding:12px 16px;
+  border:1px solid var(--accent); border-radius:8px;
+  background:transparent; font:inherit; text-decoration:none;
+}
+.action-link:hover { background:var(--panel); text-decoration:none; }
+.footer { margin-top:24px; padding-top:16px; border-top:1px solid var(--line); }
+@media(max-width:600px) {
+  .top { align-items:flex-start; flex-direction:column; gap:4px; }
+  .wrap { padding:18px 15px 40px; }
+}
 </style>
 </head>
 <body>
