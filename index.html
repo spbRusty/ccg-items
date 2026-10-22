@@ -4,55 +4,77 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#0d141b">
-<meta name="description" content="Русскоязычная библиотека материалов о разработке карточных и настольных игр: правила, баланс, дизайн карт, плейтесты и публикация.">
-<title>ККИ: библиотека разработчика — карта сайта</title>
+<meta name="description" content="Библиотека материалов о создании карточных игр: правила, баланс, дизайн, плейтесты и публикация.">
+<title>ККИ — библиотека разработчика</title>
 <link rel="stylesheet" href="style.css">
+<style>
+.hero{padding:clamp(28px,7vw,68px) 0 34px}.hero h1{max-width:720px}.hero .lead{max-width:660px}.topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:24px 0}.topic{background:linear-gradient(145deg,#192833,#121c25);border:1px solid var(--line);border-radius:15px;padding:19px}.topic h2{font-size:1.08rem;margin:0 0 8px}.topic p{font-size:.92rem;color:var(--muted);margin:0 0 12px}.topic details{border-top:1px solid var(--line);padding-top:10px}.topic summary{cursor:pointer;color:var(--accent);font-weight:650}.topic details a{display:block;padding:8px 0;border-bottom:1px solid #263541;font-size:.94rem}.count{color:var(--muted);font-size:.82rem;font-weight:400;margin-left:5px}.extras{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.extra{flex:1 1 250px;border:1px solid var(--line);border-radius:12px;padding:15px 18px;background:#111c24}.extra p{color:var(--muted);font-size:.9rem;margin:5px 0 0}@media(max-width:560px){.topics{grid-template-columns:1fr}.hero{padding-top:26px}}
+</style>
 </head>
 <body>
 <main class="wrap">
-<header class="top"><a class="brand" href="index.html">ККИ · БИБЛИОТЕКА</a><span class="crumb">Русскоязычные материалы о разработке игр</span></header>
-<section>
-<span class="tag">Карта сайта · 17 материалов</span>
-<h1>От первой механики до готовой колоды</h1>
-<p class="lead">Практическая библиотека по созданию карточных и настольных игр: проектирование правил, балансировка, оформление карт, цифровые плейтесты и публикация. Каждый материал — самостоятельный русскоязычный конспект с рекомендациями и ссылкой на исходную статью.</p>
-<div class="note"><b>Как читать:</b> начните с проектирования небольшой игры, затем проверьте баланс и читаемость карт, организуйте плейтесты и только после этого выбирайте производство. Материалы расположены по темам; ссылки на оригиналы находятся в конце каждой статьи.</div>
+<header class="top"><a class="brand" href="index.html">ККИ · БИБЛИОТЕКА</a><span class="crumb">Материалы для разработчиков игр</span></header>
+<section class="hero">
+<span class="tag">17 статей · 5 разделов</span>
+<h1>От первой механики до готовой игры</h1>
+<p class="lead">Практические материалы о создании карточных и настольных игр. Выберите тему — список статей откроется внутри раздела.</p>
 </section>
-<section><h2>Карта сайта по темам</h2><section class="panel toc"><h2>Разработка ККИ</h2><a href="make-trading-card-game.html">Как создать ККИ <span class="meta">— Основные правила, ресурсы, типы карт и первый играбельный набор.</span></a>
-<a href="make-card-game-from-scratch.html">Карточная игра с нуля <span class="meta">— Три этапа прототипирования и типовые ошибки новичков.</span></a></section>
-<section class="panel toc"><h2>Баланс и плейтест</h2><a href="balance-trading-card-game.html">Баланс ККИ: 5 проверок <span class="meta">— Темп, доминирующие стратегии, статистика и итерации.</span></a>
-<a href="card-game-playtesting-software.html">Программы для плейтестов <span class="meta">— Виртуальные столы, тестовые данные и фиксация проблем.</span></a></section>
-<section class="panel toc"><h2>Графический дизайн и подготовка карт</h2><a href="playing-card-sizes.html">Размеры игровых карт <span class="meta">— Форматы карт, пиксели при 300 DPI, вылеты и безопасные зоны.</span></a>
-<a href="game-card-graphic-design.html">Дизайн игровых карт: 6 принципов <span class="meta">— Иерархия, читаемость, иконки, цвет и единый стиль.</span></a>
-<a href="card-template-tools.html">Инструменты шаблонов карт <span class="meta">— Связь таблицы данных с единым макетом всей колоды.</span></a></section>
-<section class="panel toc"><h2>Инструменты и конструкторы</h2><a href="tabletop-simulator-custom-cards.html">Карты для Tabletop Simulator <span class="meta">— Сетка колоды, рубашки, импорт изображений и типовые ошибки.</span></a>
-<a href="print-on-demand-printers.html">Выбор сервиса печати <span class="meta">— Сравнение типографий по полной стоимости, качеству и доставке.</span></a>
-<a href="ai-tabletop-game-makers.html">ИИ-инструменты для настольных игр <span class="meta">— Практические задачи ИИ и ограничения автоматической генерации.</span></a>
-<a href="tabletop-game-makers.html">Конструкторы настольных игр <span class="meta">— Редакторы компонентов, документация, плейтесты и экспорт.</span></a>
-<a href="ai-board-game-makers.html">ИИ для настольных игр <span class="meta">— Как отличить реальную помощь в разработке от генерации текста.</span></a>
-<a href="board-game-makers.html">Как выбрать конструктор настольной игры <span class="meta">— Критерии выбора бесплатных и платных инструментов.</span></a>
-<a href="tts-card-makers.html">Инструменты для карт под TTS <span class="meta">— Генерация листов колоды и быстрый повторный экспорт.</span></a>
-<a href="ai-card-game-makers.html">ИИ-конструкторы карточных игр <span class="meta">— Генерация изображений, эффектов и структурированных карт.</span></a>
-<a href="card-game-makers.html">Программы для создания карточных игр <span class="meta">— Как выбрать инструментарий для данных, дизайна и экспорта.</span></a></section>
-<section class="panel toc"><h2>Издание и публикация</h2><a href="publish-card-game.html">Как издать карточную игру <span class="meta">— Печать по требованию, краудфандинг, тираж и подготовка к продаже.</span></a></section></section>
-<section><h2>Все 17 материалов</h2><div class="grid"><a class="card" href="publish-card-game.html"><span class="tag">Публикация</span><h3>Как издать карточную игру</h3><p>Печать по требованию, краудфандинг, тираж и подготовка к продаже.</p></a>
-<a class="card" href="tabletop-simulator-custom-cards.html"><span class="tag">Инструменты</span><h3>Карты для Tabletop Simulator</h3><p>Сетка колоды, рубашки, импорт изображений и типовые ошибки.</p></a>
-<a class="card" href="playing-card-sizes.html"><span class="tag">Графический дизайн</span><h3>Размеры игровых карт</h3><p>Форматы карт, пиксели при 300 DPI, вылеты и безопасные зоны.</p></a>
-<a class="card" href="print-on-demand-printers.html"><span class="tag">Инструменты</span><h3>Выбор сервиса печати</h3><p>Сравнение типографий по полной стоимости, качеству и доставке.</p></a>
-<a class="card" href="ai-tabletop-game-makers.html"><span class="tag">Инструменты</span><h3>ИИ-инструменты для настольных игр</h3><p>Практические задачи ИИ и ограничения автоматической генерации.</p></a>
-<a class="card" href="tabletop-game-makers.html"><span class="tag">Инструменты</span><h3>Конструкторы настольных игр</h3><p>Редакторы компонентов, документация, плейтесты и экспорт.</p></a>
-<a class="card" href="make-trading-card-game.html"><span class="tag">Разработка ККИ</span><h3>Как создать ККИ</h3><p>Основные правила, ресурсы, типы карт и первый играбельный набор.</p></a>
-<a class="card" href="ai-board-game-makers.html"><span class="tag">Инструменты</span><h3>ИИ для настольных игр</h3><p>Как отличить реальную помощь в разработке от генерации текста.</p></a>
-<a class="card" href="board-game-makers.html"><span class="tag">Инструменты</span><h3>Как выбрать конструктор настольной игры</h3><p>Критерии выбора бесплатных и платных инструментов.</p></a>
-<a class="card" href="tts-card-makers.html"><span class="tag">Инструменты</span><h3>Инструменты для карт под TTS</h3><p>Генерация листов колоды и быстрый повторный экспорт.</p></a>
-<a class="card" href="card-game-playtesting-software.html"><span class="tag">Плейтест</span><h3>Программы для плейтестов</h3><p>Виртуальные столы, тестовые данные и фиксация проблем.</p></a>
-<a class="card" href="card-template-tools.html"><span class="tag">Графический дизайн</span><h3>Инструменты шаблонов карт</h3><p>Связь таблицы данных с единым макетом всей колоды.</p></a>
-<a class="card" href="ai-card-game-makers.html"><span class="tag">Инструменты</span><h3>ИИ-конструкторы карточных игр</h3><p>Генерация изображений, эффектов и структурированных карт.</p></a>
-<a class="card" href="card-game-makers.html"><span class="tag">Инструменты</span><h3>Программы для создания карточных игр</h3><p>Как выбрать инструментарий для данных, дизайна и экспорта.</p></a>
-<a class="card" href="make-card-game-from-scratch.html"><span class="tag">Разработка ККИ</span><h3>Карточная игра с нуля</h3><p>Три этапа прототипирования и типовые ошибки новичков.</p></a>
-<a class="card" href="game-card-graphic-design.html"><span class="tag">Графический дизайн</span><h3>Дизайн игровых карт: 6 принципов</h3><p>Иерархия, читаемость, иконки, цвет и единый стиль.</p></a>
-<a class="card" href="balance-trading-card-game.html"><span class="tag">Баланс ККИ</span><h3>Баланс ККИ: 5 проверок</h3><p>Темп, доминирующие стратегии, статистика и итерации.</p></a></div></section>
-<section class="panel"><span class="tag">Дополнительный материал</span><h2>Математика idle-игр</h2><p>Отдельный конспект о кривых роста, стоимости улучшений, генераторах дохода и престиже.</p><a href="idle-games-math.html">Открыть материал о математике idle-игр →</a></section>
-<footer class="footer">Материалы подготовлены как русскоязычные конспекты по публикациям ShuffleKit. Все оригиналы принадлежат их авторам и доступны по ссылкам внутри соответствующих страниц.</footer>
+<section aria-label="Разделы библиотеки">
+<div class="topics">
+<article class="topic">
+<h2>Разработка ККИ</h2>
+<p>Правила, ресурсы и путь от идеи к первому прототипу.</p>
+<details><summary>2 материала <span class="count">· показать список</span></summary>
+<a href="make-trading-card-game.html">Как создать ККИ</a>
+<a href="make-card-game-from-scratch.html">Карточная игра с нуля</a>
+</details>
+</article>
+<article class="topic">
+<h2>Баланс и плейтесты</h2>
+<p>Как выявлять сильные карты, проверять темп и собирать обратную связь.</p>
+<details><summary>2 материала <span class="count">· показать список</span></summary>
+<a href="balance-trading-card-game.html">Баланс ККИ: 5 проверок</a>
+<a href="card-game-playtesting-software.html">Программы для плейтестов</a>
+</details>
+</article>
+<article class="topic">
+<h2>Дизайн карт</h2>
+<p>Читаемость, размеры, шаблоны и подготовка файлов.</p>
+<details><summary>3 материала <span class="count">· показать список</span></summary>
+<a href="playing-card-sizes.html">Размеры игровых карт</a>
+<a href="game-card-graphic-design.html">Дизайн игровых карт: 6 принципов</a>
+<a href="card-template-tools.html">Инструменты шаблонов карт</a>
+</details>
+</article>
+<article class="topic">
+<h2>Инструменты</h2>
+<p>Конструкторы, ИИ, Tabletop Simulator и автоматизация рабочего процесса.</p>
+<details><summary>9 материалов <span class="count">· показать список</span></summary>
+<a href="tabletop-simulator-custom-cards.html">Карты для Tabletop Simulator</a>
+<a href="ai-tabletop-game-makers.html">ИИ-инструменты для настольных игр</a>
+<a href="tabletop-game-makers.html">Конструкторы настольных игр</a>
+<a href="ai-board-game-makers.html">ИИ для настольных игр</a>
+<a href="board-game-makers.html">Как выбрать конструктор настольной игры</a>
+<a href="tts-card-makers.html">Инструменты для карт под TTS</a>
+<a href="ai-card-game-makers.html">ИИ-конструкторы карточных игр</a>
+<a href="card-game-makers.html">Программы для создания карточных игр</a>
+<a href="print-on-demand-printers.html">Выбор сервиса печати</a>
+</details>
+</article>
+<article class="topic">
+<h2>Издание и публикация</h2>
+<p>Печать прототипа, производство и выбор способа выпуска.</p>
+<details><summary>1 материал <span class="count">· показать список</span></summary>
+<a href="publish-card-game.html">Как издать карточную игру</a>
+</details>
+</article>
+</div>
+</section>
+<section class="extras" aria-label="Другие материалы">
+<a class="extra" href="idle-games-math.html"><strong>Математика idle-игр →</strong><p>Отдельный материал о кривых роста, стоимости улучшений и престиже.</p></a>
+<a class="extra" href="https://shufflekit.com/blog" target="_blank" rel="noopener noreferrer"><strong>Оригинальный блог ShuffleKit ↗</strong><p>Исходные публикации на английском языке.</p></a>
+</section>
+<footer class="footer">Русскоязычные конспекты с практическими выводами. Ссылки на оригинальные публикации размещены внутри статей.</footer>
 </main>
 </body>
 </html>
